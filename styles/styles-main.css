@@ -1,0 +1,23 @@
+body {
+    font-size: 16px;
+    /* direction: ltr;
+    writing-mode:sideways-lr;
+    text-orientation: mixed; */
+    margin: 0;
+    display: grid;
+}
+
+main {
+    /* max-width: clamp(700px, 50%, 900px);
+    padding: 0 2rem; */
+    /* border-left: solid 2px black;
+    border-right: solid 2px black; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+main > * {
+    grid-column: 2;
+}

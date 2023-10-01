@@ -1,0 +1,28 @@
+#navigation {
+    position: sticky;
+    top: 0;
+    /* inset-inline-start: 0; */
+    text-align: center;
+    background-color: rgb(161, 158, 158);
+    z-index: 1;
+}
+
+#navigation ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+}
+
+#navigation ul li {
+    /* display: inline; */
+    /* margin: 0.25rem; */
+    margin-inline: 0.25rem;
+    margin-block: 0;
+    line-height: 1.5rem;
+    list-style: none;
+}
+
+#navigation>ul li>a:hover, #navigation>ul li>a:focus, #navigation>ul li>a:visited {
+    color: rgb(249, 248, 248);
+}

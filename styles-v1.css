@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[class~='skillset'] {
+    font-style: italic;
+}
+
+#skill-66118d4c-376d-457a-9189-985c50e22431 {
+    font-size: larger;
+}
+
+/* .skillset {
+    font-style: italic;
+} */
+
+.basic-skillset {
+    font-weight: bold;
+}
+
+ol, ul {
+    display: inline;
+}
+
+h6 nav a {
+    font-variant: small-caps;
+}
+
+li:nth-child(2n+1) {
+    background-color: antiquewhite;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: antiquewhite;
+}
+
+
+h1, h2 {
+    font-weight: lighter;
+    font-size: 1.2em
+}
+h1::first-letter, h2::first-letter {
+    font-weight: 700;
+}

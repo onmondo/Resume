@@ -1,0 +1,57 @@
+#portfolio {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-gap: 8px;
+    align-items: center;
+    justify-items: end;
+}
+
+#portfolio > section {
+    margin: 0;
+    display: block;
+    position: relative;
+}
+
+#portfolio > section > p {
+    font-size: smaller;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0;
+    text-align: end;
+    padding: 2rem 0.25rem;
+    color: rgb(249, 248, 248);
+    /* box-shadow: 0px -50px 90px 0px black; */
+}
+
+#portfolio > section > p a:hover, #portfolio > section > p a:visited{
+    color: rgb(249, 248, 248);
+}
+
+img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+#portfolio > section.anchor {
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 2;
+}
+
+/* #portfolio {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template-areas:    "portfolio ancrhor anchor img1 anchor anchor";
+    grid-gap: 10px;
+}
+
+#portfolio header {
+    grid-area: portfolio
+}
+
+img.anchor {
+    grid-area: anchor
+} */

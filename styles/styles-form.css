@@ -1,0 +1,54 @@
+.resumeFieldSet {
+    border: none;
+}
+
+.resumeFieldSet legend {
+    padding: 0;
+}
+
+form {
+    display: block;
+}
+
+form > p {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+form > p label, .resumeFieldSet legend {
+    display: block;
+    margin: 0.125rem;
+    font-size: 0.75rem;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+form > p > input, select, textarea {
+    padding: 0.5rem;
+}
+
+form p button {
+    padding: 1rem;
+    place-self: flex-end;
+    width: 10rem;
+}
+
+/* .resumeFieldSet legend {
+    font-size: 0.75rem;
+} */
+
+.resumeFieldSet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.resumeFieldSet p {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0.5rem;
+    margin: 0;
+}

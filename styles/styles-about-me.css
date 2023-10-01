@@ -1,0 +1,20 @@
+#aboutme {
+    display: flow-root;
+    background-color: rgb(37, 37, 37);
+    color: rgb(249, 248, 248);
+}
+
+#aboutme > p {
+    vertical-align: middle;
+    line-height: 1.5rem;
+}
+
+#aboutme > aside > p {
+    line-height: 1rem;
+}
+
+.profile-pic {
+    float: left;
+    max-width: 75px;
+    margin-right: 1rem;
+}
