@@ -21,3 +21,29 @@ main {
 main > * {
     grid-column: 2;
 }
+
+.sections {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 0.5fr;
+    margin-top: 5rem;
+}
+
+.sections header h6 {
+    grid-column: 2 / span 2;
+    text-transform: uppercase;
+    color: rgb(168, 172, 175);
+}
+
+.sections header article dl {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.sections header article dl dt {
+    font-size: 1.2rem;
+}
+
+.sections header article dl dd {
+    color: rgb(168, 172, 175);
+}

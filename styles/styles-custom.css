@@ -1,4 +1,4 @@
 .fullbleed {
     grid-column: 2 / span 4;
-    padding: 2rem;
+    /* padding: 2rem; */
 }

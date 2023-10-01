@@ -36,10 +36,10 @@ img:hover {
     transition: opacity 0.3s;
 }
 
-#portfolio > section.anchor {
+/* #portfolio > section.anchor {
     grid-column: 2 / span 2;
     grid-row: 1 / span 2;
-}
+} */
 
 /* #portfolio {
     display: grid;

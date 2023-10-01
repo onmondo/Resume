@@ -1,3 +1,13 @@
+#testimonials header {
+    grid-column: 2 / span 3;
+}
+
+#testimonials article {
+    grid-column: 2 / span 3;
+    grid-row: 2;
+    font-size: 0.8rem;
+}
+
 #testimonials blockquote {
     padding: 0 0.5rem;
     margin: 0.5rem 0;

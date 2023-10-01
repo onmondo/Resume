@@ -8,18 +8,23 @@
     <link rel="stylesheet" href="styles/styles-main.css" />
     <link rel="stylesheet" href="styles/styles-nav.css" />
     <link rel="stylesheet" href="styles/styles-about-me.css" />
-    <link rel="stylesheet" href="styles/styles-portfolio.css" />
+    <!-- <link rel="stylesheet" href="styles/styles-portfolio.css" /> -->
     <link rel="stylesheet" href="styles/styles-list.css" />
     <link rel="stylesheet" href="styles/styles-form.css" />
     <link rel="stylesheet" href="styles/styles-custom.css" />
+    <link rel="stylesheet" href="styles/styles-works.css" />
+    <!-- <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
 </head>
 
 <body>
     <main>
-        <header id="aboutme" class="fullbleed">
+        <header id="aboutme" class="fullbleed sections">
             <nav id="navigation">
                 <ul>
-                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#works">Works</a></li>
                     <li><a href="#services">About</a></li>
                     <li class="important"><a href="#contactme">chat</a></li>
                 </ul>
@@ -46,7 +51,7 @@
             <article>            
                 <img class="profile-pic" src="https://picsum.photos/200?random=6" loading="lazy" alt="Snowy Mountain"/>
                 <p>
-                    Hi I'm John Raymond - fullstack web developer with over 10 years of professional experience in web development,
+                    Hi I'm John Raymond - I'm a fullstack web developer with over 10 years of professional experience in web development,
                 </p>
                 <aside>
                     <p><small>always bring the utmost
@@ -55,64 +60,68 @@
                 </aside>
             </article>
         </header>
-        <section id="services">
+        <section id="works" class="fullbleed sections">
             <header>
-                <h2>Services</h2>
-                <h6><a href="#test">Test</a></h6>
+                <h6>Works</h6>
+                <article>
+                    <dl>
+                        <dt>Portfolio</dt>
+                        <dd>Sharing my currently involved projects and side projects as well. Sed et massa mauris. Aliquam neque erat, euismod a lacus ac, ornare aliquet felis. Quisque faucibus neque a justo accumsan, a ultricies elit placerat. Fusce et est in est semper porta.</dd>
+                    </dl>
+                </article>
             </header>
+            <article id="portfolio">
+                <section class="projects">
+                    <a href="https://www.healthnow.ph/" target="_blank">
+                        <img src="https://www.healthnow.ph/img/logo-bg.png" loading="lazy" />
+                    </a>
+                </section>
+                <section class="projects">
+                    <a href="https://konsulta.md/" target="_blank">
+                        <img src="https://konsulta.md/assets/img/logo.svg" loading="lazy" />
+                    </a>
+                </section>
+                <section class="skill-map">
+                    <img id="html-skill" src="assets/1643312539html5.svg"/>
+                    <img id="js-skill" src="assets/js_logo.svg"/>
+                    <img id="css-skill" src="assets/1643312557css3.svg"/>
+                </section>
+            </article>
+            <!-- <section id="skills">
+                <ol reversed class="skillset resume">
+                    <li class="basic-skillset" id="skill-66118d4c-376d-457a-9189-985c50e22431"><em>HTML CSS</em> and
+                        <em>JavaScript</em> ES5/ES6</li>
+                    <li>Express JS</li>
+                    <li class="basic-skillset">Typescript</li>
+                    <li>REST and GraphQL APIs</li>
+                    <li class="basic-skillset">RDBMS</li>
+                    <li class="basic-skillset">Data Structure</li>
+                    <li class="basic-skillset">Containerization Technologies</li>
+                    <li>Software architecture and design patterns</li>
+                    <li>Cloud computing</li>
+                    <li>Microservices</li>
+                    <li>AWS Lambda</li>
+                    <li>Shopify Theme development</li>
+                    <li>Shopify API Admin</li>
+                </ol>
+            </section> -->
         </section>
-        <article id="portfolio">
+        <section id="testimonials" class="sections">
             <header>
-                <h2>Portfolios</h2>
-
+                <h6>Testimonials</h6>
+                <article>
+                    <dl>
+                        <dt>Test</dt>
+                        <dd>Sharing my currently involved projects and side projects as well. Sed et massa mauris. Aliquam neque erat, euismod a lacus ac, ornare aliquet felis. Quisque faucibus neque a justo accumsan, a ultricies elit placerat. Fusce et est in est semper porta.</dd>
+                    </dl>
+                </article>
             </header>
-            <section class="anchor">
-                <img src="https://picsum.photos/300/400?random=1" loading="lazy" />
-                <p>
-                    <a href="#like">Like</a>
-                    <a href="#subscribe">Subscribe</a>
-                </p>
-            </section>
-            <section>
-                <img src="https://picsum.photos/200?random=2" loading="lazy" />
-                <p>
-                    <a href="#like">Like</a>
-                    <a href="#subscribe">Subscribe</a>
-                </p>
-            </section>
-            <section>
-                <img src="https://picsum.photos/200/300?random=3" loading="lazy" />
-                <p>
-                    <a href="#like">Like</a>
-                    <a href="#subscribe">Subscribe</a>
-                </p>
-            </section>
-            <section>
-                <img src="https://picsum.photos/200?random=4" loading="lazy" />
-                <p>
-                    <a href="#like">Like</a>
-                    <a href="#subscribe">Subscribe</a>
-                </p>
-            </section>
-            <section>
-                <img src="https://picsum.photos/200?random=5" loading="lazy" />
-                <p>
-                    <a href="#like">Like</a>
-                    <a href="#subscribe">Subscribe</a>
-                </p>
-            </section>
-        </article>
-        <section id="testimonials">
-            <header>
-                <h2>Testimonials</h2>
-
-            </header>
-            <blockquote>
+            <!-- <blockquote>
                 <p>Mon has <strong>consistent</strong> in providing good service in timely manner</p>
             </blockquote>
             <blockquote>
                 <p>One whos knowledgeable in web development. Supppper cool!</p>
-            </blockquote>
+            </blockquote> -->
         </section>
         <section id="employmentHistory">
             <header>
@@ -181,28 +190,7 @@
                     <li>AceStar Solutions Inc.</li>
                 </ol> -->
         </section>
-        <section id="skills">
-            <header>
-                <h2>Skills</h2>
 
-            </header>
-            <ol reversed class="skillset resume">
-                <li class="basic-skillset" id="skill-66118d4c-376d-457a-9189-985c50e22431"><em>HTML CSS</em> and
-                    <em>JavaScript</em> ES5/ES6</li>
-                <li>Express JS</li>
-                <li class="basic-skillset">Typescript</li>
-                <li>REST and GraphQL APIs</li>
-                <li class="basic-skillset">RDBMS</li>
-                <li class="basic-skillset">Data Structure</li>
-                <li class="basic-skillset">Containerization Technologies</li>
-                <li>Software architecture and design patterns</li>
-                <li>Cloud computing</li>
-                <li>Microservices</li>
-                <li>AWS Lambda</li>
-                <li>Shopify Theme development</li>
-                <li>Shopify API Admin</li>
-            </ol>
-        </section>
         <section id="contactme">
             <header>
                 <h2>Contact Me</h2>

@@ -1,0 +1,68 @@
+#works header {
+    grid-column: 2 / span 2;
+}
+
+#works article {
+    grid-column: 2 / span 3;
+    grid-row: 2;
+    font-size: 0.8rem;
+}
+
+/* #works section {
+    grid-column: 2 / span 3;
+    grid-row: 3;
+} */
+
+#works #portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(248, 244, 244, 1);
+    grid-column: 1 / span 4;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+
+#works #skills {
+    grid-column: 2 / span 3;
+    grid-row: 3;
+}
+
+#portfolio section {
+    grid-column: 1;
+    grid-row: 2;
+    /* height: 20rem; */
+    /* border: solid 1rem rgb(248, 244, 244, 1); */
+    /* background-color: rgb(248, 244, 244, 1); */
+    padding: 2rem;
+    margin-right: 1rem;
+}
+
+#portfolio section.projects img {
+    /* min-width: 16rem; */
+    width: 20rem;
+    /* min-height: 18rem; */
+}
+
+#works article > section.skill-map {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+}
+
+#works article > section.skill-map img#html-skill {
+    width: 8rem;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 4;
+}
+
+#works article > section.skill-map img#css-skill {
+    width: 2rem;
+    grid-column: 4;
+    grid-row: 3
+}
+
+#works article > section.skill-map img#js-skill {
+    width: 4rem;
+    grid-column: 3 / span 2;
+    grid-row: 2;
+}
