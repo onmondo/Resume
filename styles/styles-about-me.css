@@ -1,12 +1,24 @@
 #aboutme {
     display: flow-root;
-    background-color: rgb(37, 37, 37);
-    color: rgb(249, 248, 248);
+    background-color: rgb(248, 244, 244, 1);
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 0.5fr;
+    margin-top: 5rem;
+    padding-top: 0;
 }
 
-#aboutme > p {
+#aboutme nav ul li {
+    margin-inline: 0.25rem;
+    margin-block: 0;
+    line-height: 1.5rem;
+    list-style: none;
+}
+
+#aboutme > article {
     vertical-align: middle;
     line-height: 1.5rem;
+    grid-column: 2 / span 2;
+    margin: 120px 0px 120px 16px;
 }
 
 #aboutme > aside > p {
@@ -15,6 +27,7 @@
 
 .profile-pic {
     float: left;
-    max-width: 75px;
+    max-width: 130px;
     margin-right: 1rem;
+    border-radius: 50%;
 }
