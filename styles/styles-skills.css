@@ -1,0 +1,37 @@
+#skills {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1.5fr 0.5fr;
+    margin-top: 5rem;
+}
+
+#skills header {
+    grid-column: 2;
+}
+
+#skills header h6 {
+    text-transform: uppercase;
+    color: rgb(168, 172, 175);
+}
+
+#skills header article dl {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    /* font-size: 0.8rem; */
+}
+
+#skills header article dl dt {
+    font-size: 1.2rem;
+}
+
+#skills header article dl dd {
+    font-size: 0.8rem;
+    color: rgb(168, 172, 175);
+    margin: 1rem 0;
+}
+
+#skills header article dl dd ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}

@@ -22,26 +22,15 @@
     padding: 3rem 0;
 }
 
-
-#works #skills {
-    grid-column: 2 / span 3;
-    grid-row: 3;
-}
-
 #portfolio section {
     grid-column: 1;
     grid-row: 2;
-    /* height: 20rem; */
-    /* border: solid 1rem rgb(248, 244, 244, 1); */
-    /* background-color: rgb(248, 244, 244, 1); */
     padding: 2rem;
     margin-right: 1rem;
 }
 
 #portfolio section.projects img {
-    /* min-width: 16rem; */
     width: 20rem;
-    /* min-height: 18rem; */
 }
 
 #works article > section.skill-map {
