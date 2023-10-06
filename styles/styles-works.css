@@ -16,7 +16,8 @@
 #works #portfolio {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(248, 244, 244, 1);
+    justify-content: space-evenly;
+    background-color: var(--base-bg-color);
     grid-column: 1 / span 4;
     align-items: center;
     padding: 3rem 0;

@@ -1,12 +1,12 @@
 #contactme {
-    background-color: rgb(29, 27, 27);
+    background-color: var(--contact-bg-color);
     padding: 4rem 0;
     margin: 0;
 }
 
 #contactme header {
     grid-column: 2;
-    color: rgb(168, 172, 175);
+    color: var(--base-color);
 }
 
 #contactme header p {
@@ -15,7 +15,7 @@
 
 #contactme footer {
     grid-column: 2;
-    color: rgb(168, 172, 175);
+    color: var(--base-color);
     grid-row: 2;
     margin: 2rem 0
 }
@@ -26,7 +26,7 @@
 
 #contactme footer address dl dt {
     text-transform: uppercase;
-    color: rgb(168, 172, 175);
+    color: var(--base-color);
     font-size: 0.67rem;
     font-weight: 700;
 }
@@ -38,13 +38,13 @@
 }
 
 #contactme footer address dl dd a {
-    color: rgb(168, 172, 175);
+    color: var(--base-color);
 }
 
 #contactme form {
     grid-column: 3;
     grid-row: 2;
-    color: rgb(168, 172, 175);
+    color: var(--base-color);
     margin: 3rem 0;
     display: flex;
     flex-direction: column;
@@ -52,18 +52,27 @@
 
 #contactme form label {
     text-transform: uppercase;
-    color: rgb(168, 172, 175);
+    color: var(--base-color);
     font-size: 0.67rem;
     font-weight: 700;
 }
 
 #contactme form button {
+    box-sizing: border-box;
     margin: 0.8rem 0;
-    background-color: rgb(29, 27, 27);
-    color: rgb(168, 172, 175);
+    background-color: var(--contact-bg-color);
+    color: var(--base-color);
     text-transform: uppercase;
     font-size: 0.67rem;
     padding: 0.8rem 0;
     border-style: none;
-    border: 0.1rem solid rgb(168, 172, 175);
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--base-color);
+}
+
+#contactme form button:hover {
+    background-color: var(--base-color);
+    color: var(--contact-bg-color);
+    border: 0.1rem solid var(--contact-bg-color);
+    transition: 600ms background-color;
 }
