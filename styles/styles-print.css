@@ -1,0 +1,21 @@
+@media print {
+    .sections {
+        margin-top: 2rem;
+    }
+    #aboutme > article {
+        margin: 2rem 0px 2rem 4px;
+    }
+
+    #works #portfolio {
+        padding: 5rem 0;
+    }
+
+    #portfolio section.projects img {
+        width: 10rem;
+    }
+
+    #skills header article dl {
+        margin-bottom: 1rem;
+    }
+    
+}

@@ -1,3 +1,9 @@
+:root {
+    --base-color: rgb(168, 172, 175);
+    --base-bg-color: rgb(248, 244, 244, 1);
+    --contact-bg-color: rgb(29, 27, 27);
+}
+
 body {
     font-size: 16px;
     /* direction: ltr;
@@ -31,7 +37,7 @@ main > * {
 .sections header h6, .sections footer h6 {
     grid-column: 2 / span 2;
     text-transform: uppercase;
-    color: rgb(168, 172, 175);
+    color: var(--base-color);
 }
 
 .sections header article dl, .sections footer article dl {
@@ -45,5 +51,5 @@ main > * {
 }
 
 .sections header article dl dd, .sections footer article dl dd {
-    color: rgb(168, 172, 175);
+    color: var(--base-color);
 }
